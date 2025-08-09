@@ -1,5 +1,7 @@
 package sec01_theneedforgeneric.EX01_ProblemsBeforeGeneric;
 
+/*제네릭 없이 사과와 연필을 저장할 수 있는 클래스 생성*/
+
 //#1. Apple 클래스와 Apple 클래스를 담을 수 있는 클래스 
 class Apple{}
 class Goods1 {
@@ -37,6 +39,7 @@ public class ProblemsBeforeGeneric {
 		Pencil pencil = goods2.getPencil();
 	}
 }
+
 
 
 
